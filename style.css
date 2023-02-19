@@ -101,6 +101,7 @@ section{
     color: var(--black);
 }
 
+
 header .flex .logo i{
     margin-right:  .5rem;
     color: var(--light-color);
@@ -177,7 +178,21 @@ header .flex .navbar a:hover{
     margin-right: 2rem;
 }
 
+.footer .credit{
+    text-align: center;
+    padding: 3rem 2rem;
+    border-top: var(--border);
+    background-color: var(--white);
+    font-size: 2rem;
+    color: var(--light-color);
+    line-height: 1.5;
+}
 
+
+.footer .credit span{
+    color: var(--main-color);
+    text-transform: capitalize;
+}
 
 
 
@@ -214,7 +229,7 @@ header .flex .navbar a:hover{
     transition: .2s linear;
 }
 
-.header .flex .navbar .active{
+.header .flex .navbar.active{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
