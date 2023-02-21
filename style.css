@@ -121,7 +121,9 @@ header .flex .navbar a:hover{
     color: var(--white);
 }
 
-
+.home-container{
+    background: url();
+}
 
 
 
